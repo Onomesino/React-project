@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  padding: 1rem;
+  border: 3px solid blue;
+  width: 52rem;
+  height: 15rem;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  right: 1rem;
+  border: 3px solid orange;
+  width: 30rem;
+  height: 5rem;
+  /* position: absolute; */
+  /* right: 0; */
+}
+
+.description {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  border: 3px solid grey;
+  width: 30rem;
+  height: 9rem;
+}
+
+.IMG {
+  position: absolute;
+  /* left: 1rem; */
+  /* bottom: 1rem; */
+  border: 3px solid orange;
+  width: 20rem;
+  height: 14.6rem;
+  background-color: rgb(212, 208, 152);
+}
+
+.titlee {
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  color: rgb(183, 110, 27);
+}
+
+.descriptionn {
+  margin-left: 2rem;
+  /* font-size: 2.5rem; */
+  color: rgb(92, 89, 89);
+}
+
+.IMGG {
+  margin-left: 4rem;
+  font-size: 5rem;
+  color: rgb(161, 119, 71);
+}
