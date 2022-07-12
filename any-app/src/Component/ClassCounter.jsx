@@ -6,10 +6,10 @@ export class ClassCounter extends Component {
     this.state = { count: 0 };
   }
   increament = () => {
-    this.setState({ count: this.state.count + 2 });
+    this.setState({ count: this.state.count + 1 });
   };
   Decreament = () => {
-    this.setState({ count: this.state.count - 2 });
+    this.setState({ count: this.state.count - 1 });
   };
   render() {
     return (
