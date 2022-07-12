@@ -1,11 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-import SimpleCard from "./SimpleCard.js";
+import ClassCounter from "./Component/ClassCounter";
 
 function App() {
   return (
     <div>
-      <SimpleCard />
+      <ClassCounter/>
     </div>
   );
 }
