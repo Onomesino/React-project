@@ -9,11 +9,12 @@ function FunctionCounter() {
         setCount(count-1)
     }
   return (
-    <>
-    <h1>COUNT {count}</h1>
-    <button onClick={increment}>Increase</button>
-    <button onClick={Decrement}>Decrease</button>
-    </>
+    < div className="All">
+    <h1 className="cen">COUNT {count}</h1>
+    <hr />
+    <button className="primary" onClick={increment}>Increase</button>
+    <button className="primary" onClick={Decrement}>Decrease</button>
+    </div>
   )
 }
 

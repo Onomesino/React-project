@@ -1,0 +1,116 @@
+.log{
+    width: 70px;
+    height: 40px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+.Nav {
+    background-color: #6da9d2;
+    border-color: #6da9d2;
+    height: 80px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    /* padding-top: 15px; */
+    margin-top: 20px;
+    /* padding-left: 15px; */
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    margin-top: 20px;
+    font-size: 20px;
+}
+ .offi{
+    width: 1580px;
+    height: 900px;
+} 
+
+.hall{
+    text-align: center;
+}
+ .con{
+    width: 300px;
+} 
+.container-footer{
+    width: 100%;
+    height: 150px;
+    background-color: 	#0077b3;
+}
+
+.fot{
+    margin-left: 160px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.fit{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.mid{
+    margin-left: 50px;
+}
+
+.pla{
+    margin-left: 100px;
+    color: #fff;
+}
+
+.cen{
+    color: #fff;
+    margin-left: 535px;
+    margin-top: -120px;
+    padding-top: 9px;
+}
+
+.ter{
+    color: #fff;
+    margin-left: 500px;
+}
+
+.us{
+    margin-left: 880px;
+    color: #fff;
+    margin-top: -90px;
+    padding-top: 9px ;
+}
+
+.at{
+    margin-left: 900px;
+    color: #fff;
+    margin-top: 3px;
+}
+
+.ven{
+    color: #fff;
+    margin-left: 830px;
+}
+
+.end{
+    margin-left: 1220px;
+    color: #fff;
+    margin-top: -110px;
+}
+
+.las{
+    margin-left: 1200px;
+    color: #fff;
+}
+
+.met{
+    width: 400px;
+}
+
+.fre{
+    width: 450px;
+}
