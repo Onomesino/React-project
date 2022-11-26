@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SimpleCard from './SimpleCard';
 
 class Description extends Component {
     render(props) {

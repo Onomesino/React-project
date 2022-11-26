@@ -1,0 +1,15 @@
+.react{
+    background-color: #FFC0CB;
+    color: #000ff0;
+    font-size: 5rem;
+    margin-left: 23rem;
+    margin-top: 10rem;
+    margin-bottom: -14rem;
+}
+
+.image{
+    width: 20rem;
+    height: 18rem;
+    margin-left: 2rem;
+    border: 1px solid #FFA500;
+}

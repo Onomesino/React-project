@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import WelcomeComponent from "./WelcomeComponent";
+import Class from "./AllComponent/Class";
+// import WelcomeComponent from "./WelcomeComponent";
 
 // import React, { Component } from 'react'
 
@@ -22,8 +23,9 @@ import WelcomeComponent from "./WelcomeComponent";
 function App() {
   return (
     <>
-      <WelcomeComponent Name="Codetrain" />
+    <Class/>
     </>
+    // {/* <WelcomeComponent Name="Codetrain" /> */}
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />

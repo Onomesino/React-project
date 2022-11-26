@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SimpleCard from "./SimpleCard";
 
 function Image() {
   return (
-    <div>Image</div>
-  )
+    <div>
+      <img className="pics" src="./images/d11.PNG" alt="picture"  />
+    </div>
+  );
 }
 
-export default Image
+export default Image;

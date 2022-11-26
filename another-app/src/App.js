@@ -10,13 +10,13 @@ import "./App.css";
 // import HorizonNav from "./Component/HorizonNav";
 // import HorizonFacilities from "./Component/HorizonFacilities";
 // import HorizonFooter from "./Component/HorizonFooter";
-import Title from "./Component2/Title";
-import Description from "./Component2/Description";
+
+import Simplecard from "./Component2/SimpleCard";
 function App() {
   return (
     <>
-        <Title name="My"/>
-        <Description name="Software" />
+        
+        <Simplecard />
 
 
       {/* <WelcomComponent name="Codetrain" /> */}
