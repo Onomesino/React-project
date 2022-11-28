@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col } from "react-bootstrap";
+import { Card, Col, Button } from "react-bootstrap";
 
 const User = (props) => {
   return (
@@ -14,8 +14,12 @@ const User = (props) => {
             <p>Email: {props.userInfo.email} </p>
             <p>Gen: {props.userInfo.gen} </p>
           </Card.Text>
-          <Card.Link href="#">Edit</Card.Link>
-          <Card.Link href="#">Delete</Card.Link>
+          <Card.Link href="#">
+          <Button variant="danger">Delete</Button>
+          </Card.Link>
+          <Card.Link href="#">
+          <Button variant="primary">Edit</Button>
+            </Card.Link>
         </Card.Body>
       </Card>
     </Col>

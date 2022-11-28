@@ -32,8 +32,11 @@ class App extends Component {
       ],
     };
   }
+
   addNewUser = (user) => {
-    this.setState()
+    this.setState({
+      users: [...this.state.users, user ]
+    })
   }
   render() {
     return (
@@ -42,7 +45,7 @@ class App extends Component {
           <Row>
             <Col md="4 ">
               
-               <AddUserForm /> 
+               <AddUserForm  addUser={this.addNewUser}/> 
             </Col>
             <Col>
               <Users usersData={this.state.users} />
