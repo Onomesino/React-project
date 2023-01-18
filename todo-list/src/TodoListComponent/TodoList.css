@@ -1,0 +1,33 @@
+* {
+  background-color: rgb(239, 255, 192);
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+
+.fom{
+    border: 1px solid #FFC0CB;
+    padding-top: 3rem;
+    border-radius: 20px;
+    width: 26rem;
+    height: 25rem;
+    /* margin-left: 20px; */
+    padding-left: 40px;
+    /* margin-top: 3rem; */
+
+}
+
+.input{
+    width: 20rem;
+}
+ 
+.card{
+  margin-top: 3rem;
+
+  border: 1.5px solid #FFC0CB;
+  border-radius: 7px;
+
+}

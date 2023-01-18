@@ -1,52 +1,51 @@
 import React, { useState } from "react";
-import { Card, Col, Button, Modal } from "react-bootstrap";
-import EditUserForm from "./EditUserForm";
-import Crud from "./Crud.css"
+import { Button, Card, Col, Modal } from "react-bootstrap";
+import TodoNewList from "./TodoNewList";
+import TodoList from "./TodoList.css"
 
-const User = (props) => {
+const TodoClassForms = (props) => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   const handleDelete = (e) => {
     e.preventDefault();
-    props.deleteUser(props.userInfo.id);
+    props.deleteList(props.itemInfo.id);
   };
   return (
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Edit User</Modal.Title>
+          <Modal.Title>Edit List</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <EditUserForm
-            userInfo={props.userInfo}
-            editUser={props.editUser}
+          <TodoNewList
+            itemInfo={props.itemInfo}
+            editList={props.editList}
             closeModal={handleClose}
           />
         </Modal.Body>
       </Modal>
 
-      <Col md="4" style={{ marginBottom: "1rem" }}>
+      <Col md="3">
         <Card>
-          <img src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/no-profile-picture-icon.png" alt="" />
           <Card.Body>
             <Card.Subtitle className="mb-2 text-muted">
-              Codetrain User
+              List Items
             </Card.Subtitle>
-            <Card.Title> {props.userInfo.name} </Card.Title>
+            <Card.Title>{props.itemInfo.items}</Card.Title>
             <Card.Text>
-              <p>Email: {props.userInfo.email} </p>
-              <p>Gen: {props.userInfo.gen} </p>
+              <p>Quantity:{props.itemInfo.quantity}</p>
+              <p>Amount:{props.itemInfo.amount}</p>
             </Card.Text>
             <Card.Link href="#">
-              <Button variant="primary" onClick={handleShow}>
+              <Button variant="primary" size="sm" onClick={handleShow}>
                 Edit
               </Button>
             </Card.Link>
             <Card.Link href="#">
               <Button variant="danger" size="sm" onClick={handleDelete}>
-                Delete.
+                Delete
               </Button>
             </Card.Link>
           </Card.Body>
@@ -56,4 +55,4 @@ const User = (props) => {
   );
 };
 
-export default User;
+export default TodoClassForms;

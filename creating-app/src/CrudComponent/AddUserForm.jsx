@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
 
+
 class AddUserForm extends Component {
   constructor() {
     super();
@@ -28,7 +29,7 @@ class AddUserForm extends Component {
   render() {
     return (
       <div>
-        <Form onSubmit={this.handleSubmit}>
+        <Form  className="fom" onSubmit={this.handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
             <Form.Control
