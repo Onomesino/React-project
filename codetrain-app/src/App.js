@@ -1,14 +1,14 @@
 import React from "react";
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import McNav from "./Component/McNav";
+
 
 function App() {
-  return <WelcomeComponent name="codetrain" />;
-}
-
-class WelcomeComponent extends React.Component {
-  render() {
-    return <h1>{this.props.name} is awesome, react works!!!!</h1>;
-  }
+  return (
+    <>
+      <McNav />
+    </>
+  );
 }
 
 export default App;
